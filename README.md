@@ -1,3 +1,8 @@
+#Project Console:
+https://console.firebase.google.com/project/emailpasswordlogin-a9798/overview
+#Hosting URL:
+https://emailpasswordlogin-a9798.web.app
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
