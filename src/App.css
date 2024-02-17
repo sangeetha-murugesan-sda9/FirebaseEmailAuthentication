@@ -1,7 +1,9 @@
+
 .rows{
     align-items: center;
     display: flex;
     justify-content: center;
+
 }
 .activeColor{
     padding-top:5px;
@@ -12,4 +14,12 @@
 }
 .pointer{
     cursor: pointer;
+}
+
+body {
+  background-color: #282c34;
+  color: white;
+  padding: 40px;
+  font-family: Sans-Serif;
+  text-align: center;
 }

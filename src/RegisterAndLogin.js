@@ -58,14 +58,14 @@ function RegisterAndLogin() {
           SignIn
         </div>
       </div>
-      <h1>{login ? "SignIn" : "SignUp"}</h1>
+      <h1 style={{color: "red"}}>{login ? "SignIn" : "SignUp"}</h1>
       <form onSubmit={(e) => handleSubmit(e, login ? "signin" : "signup")}>
-        <input name="email" placeholder="Email" />
+        <input name="email" placeholder="Email" />  <br />
         <br />
         <input name="password" type="password" placeholder="Password" />
-        <br />
+        <br /> <br />
         <p onClick={handleReset}>Forgot Password?</p>
-        <br />
+        <br /> <br />
         <button>{login ? "SignIn" : "SignUp"}</button>
       </form>
     </div>
